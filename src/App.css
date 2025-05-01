@@ -1,0 +1,28 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* list-style-type: none; */
+}
+
+.nav {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.stepDiv {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  border-radius: 10px;
+}
+label {
+  color: #3c3c3c;
+}
+
+hr {
+  color: #ccc;
+  border-width: 1px;
+}
