@@ -19,11 +19,11 @@ const Home = () => {
               Open. Activate. Bank — all in minutes
             </h1>
             <p className="text-gray-700">
-              Ṭ Set up your account instantly and start banking hassle-free
+              Set up your account instantly and start banking hassle-free
             </p>
           </div>
 
-          <ul className="mt-6 pl-5 text-gray-800  border-l-1 border-teal-700 font-medium space-y-5">
+          <ul className="mt-6 pl-5 text-gray-800  border-l-1 border-teal-700 font-medium space-y-5 pt-6">
             <li className="w-full truncate overflow-hidden whitespace-nowrap">
               ➝ Instant account opening with Aadhaar and PAN
             </li>
