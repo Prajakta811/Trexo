@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="p-4 overflow-x-hidden">
       <div className="flex flex-col sm:flex-row gap-6">
-        {/* Left Section */}
+
         <div className="sm:basis-1/2 flex flex-col justify-between px-6 py-6 rounded-md bg-white">
           <div>
             <h1 className="font-semibold text-2xl mb-2">
@@ -41,12 +41,9 @@ const Home = () => {
             </li>
           </ul>
         </div>
-
-        {/* Right Section */}
         <div className="sm:basis-1/2 flex items-center justify-center">
           <div className="w-full py-5 bg-[url('/images/bgImage.png')] bg-no-repeat bg-center bg-gray-100 bg-[length:300px] rounded-md">
             <div className="relative flex flex-col items-start pl-10">
-              {/* Vertical lin e */}
               <div className="absolute top-6 left-14 sm:left-14 h-[85%] w-0.5 bg-teal-700"></div>
 
               {data.map((item, idx) => (
@@ -54,12 +51,9 @@ const Home = () => {
                   key={idx}
                   className="flex w-full items-start mt-6 relative"
                 >
-                  {/* Step number */}
                   <div className="z-10 w-8 h-8 flex items-center justify-center rounded-full bg-teal-700 text-white font-bold">
                     {idx + 1}
                   </div>
-
-                  {/* Text */}
                   <div className="ml-6">
                     <p className="text-gray-800 font-medium truncate overflow-hidden whitespace-nowrap">{item}
                     </p>
